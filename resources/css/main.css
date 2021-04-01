@@ -19,8 +19,17 @@ header {
     background-color: rgb(128, 0, 0);
 }
 
+header .mr-auto{
+    margin-right: 0px!important;
+}
+
+header .navbar-toggler{
+    margin-right: auto!important;
+}
+
 .navbar {
     padding: 0;
+    margin-left: auto;
 }
 
 .navdisplay {
@@ -182,13 +191,18 @@ header div.container {
     right: 0;
 }
 
-.carousel-control-next-icon:after {
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    background-image: none;
+}
+
+.carousel-control-next{
     content: '>';
     font-size: 55px;
     color: #800000;
 }
 
-.carousel-control-prev-icon:after {
+.carousel-control-prev {
     content: '<';
     font-size: 55px;
     color: #800000;
@@ -711,6 +725,11 @@ iframe {
 
 .career {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.career *:not(img){
+    width: 100%;
 }
 
 .img-fluid {
