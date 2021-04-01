@@ -702,3 +702,19 @@ iframe {
         grid-column: span 2;
     }
 }
+
+.heading {
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.col-12 {
+    display: flex;
+}
+
+.img-fluid {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 20px auto;
+}
