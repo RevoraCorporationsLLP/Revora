@@ -19,11 +19,11 @@ header {
     background-color: rgb(128, 0, 0);
 }
 
-header .mr-auto{
+header .mr-auto {
     margin-right: 0px!important;
 }
 
-header .navbar-toggler{
+header .navbar-toggler {
     margin-right: auto!important;
 }
 
@@ -102,7 +102,7 @@ header .navbar-toggler{
     width: 60px;
 }
 
-.navbar li{
+.navbar li {
     text-align: center;
 }
 
@@ -172,7 +172,7 @@ header div.container {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
-    height: 70vh;
+    height: 90vh;
 }
 
 .carousel-inner * {
@@ -181,11 +181,7 @@ header div.container {
 
 .carousel {
     z-index: 0;
-    height: 80vh;
-}
-
-.carousel-inner .container-fluid:nth-child(1) .container {
-    background-image: url(../images/home/1.jpg);
+    height: 100vh;
 }
 
 .carousel-caption-position {
@@ -196,11 +192,11 @@ header div.container {
 }
 
 .carousel-control-next-icon,
-.carousel-control-prev-icon{
+.carousel-control-prev-icon {
     background-image: none;
 }
 
-.carousel-control-next{
+.carousel-control-next {
     content: '>';
     font-size: 55px;
     color: #800000;
@@ -343,7 +339,9 @@ header div.container {
 
 /* products */
 
-.products .col-sm-3 {
+.products .col-sm-3,
+.products .col-sm-4,
+.products .col-sm-6 {
     display: flex;
     flex-wrap: wrap;
     height: fit-content;
@@ -373,6 +371,10 @@ header div.container {
     font-size: 0;
 }
 
+.products * {
+    font-size: x-large;
+}
+
 
 /* footer */
 
@@ -393,6 +395,11 @@ footer p {
 
 footer * {
     color: white;
+}
+
+.footer .col-sm-3 {
+    height: fit-content;
+    margin-top: auto;
 }
 
 
@@ -732,12 +739,39 @@ iframe {
     flex-wrap: wrap;
 }
 
-.career *:not(img){
+.career *:not(img) {
     width: 100%;
 }
 
+.career a {
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 5px 10px;
+    margin: auto;
+}
+
+.career h2 {
+    font-size: xxx-large;
+}
+
+.career h2,
+.career h3 {
+    text-align: center;
+}
+
 .img-fluid {
-    border: 2px solid black;
     border-radius: 5px;
     margin: 20px auto;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+.big-image {
+    width: 100px;
+    height: 300px;
 }
