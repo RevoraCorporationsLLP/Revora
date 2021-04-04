@@ -19,10 +19,10 @@
          dataType: "xml",
          statusCode: {
              0: function() {
-                 alert("THANK YOU! YOUR RESPONSE IS RECORDED SUCESSFULLY.");
+                 alert("THANK YOU! YOUR RESPONSE IS RECORDED SUCESSFULLY. WE WILL GET IN TOUCH WITH YOU SHORTLY!");
              },
              200: function() {
-                 alert("THANK YOU! YOUR RESPONSE IS RECORDED SUCESSFULLY.");
+                 alert("THANK YOU! YOUR RESPONSE IS RECORDED SUCESSFULLY. WE WILL GET IN TOUCH WITH YOU SHORTLY!");
              }
          }
      });

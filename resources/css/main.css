@@ -775,3 +775,101 @@ iframe {
     width: 100px;
     height: 300px;
 }
+
+
+/* extend card */
+
+.extend-card {
+    height: 50vh;
+    width: 50%;
+    padding: 0px 15px;
+    transition: 1s;
+}
+
+.extend-card-body {
+    border: 0.5px solid lightgray;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.extend-card .col-12 {
+    padding: 0;
+}
+
+.extend-card-body,
+.extend-card-body .width-50,
+.extend-card-body .width-50 img {
+    height: 100%;
+}
+
+.extend-card-body .width-50:nth-child(2) {
+    height: 0;
+    visibility: hidden;
+}
+
+.extend-card-body:hover .width-50:nth-child(2) {
+    background-color: wheat;
+    height: 100%;
+    transition-delay: 1s;
+    visibility: visible;
+}
+
+.extend-card-body .width-50:nth-child(1) div h1 {
+    margin: auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.extend-card-body .width-50:nth-child(1) div {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    transition: 1s;
+}
+
+.extend-card-body,
+.extend-card-body .width-50:nth-child(1),
+.extend-card-body .width-50 img {
+    width: 100%;
+    background-color: wheat;
+    position: relative;
+    transition: 1s;
+}
+
+.extend-card .width-50 p {
+    font-size: large;
+    text-align: justify;
+    visibility: hidden;
+}
+
+.extend-card:hover .width-50 p {
+    visibility: visible;
+}
+
+.extend-card:hover {
+    width: 100%;
+    transition: 1s;
+}
+
+.extend-card:hover .width-50 {
+    width: 50%;
+    transition: 1s;
+}
+
+.page-button {
+    font-size: x-large;
+    border: none;
+    padding: 3px 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+}
