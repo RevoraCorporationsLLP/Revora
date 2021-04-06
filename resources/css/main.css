@@ -172,7 +172,7 @@ header div.container {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
-    height: 90vh;
+    height: 72vh;
 }
 
 .carousel-inner * {
@@ -181,7 +181,7 @@ header div.container {
 
 .carousel {
     z-index: 0;
-    height: 100vh;
+    height: 80vh;
 }
 
 .carousel-caption-position {
@@ -241,6 +241,11 @@ header div.container {
 
 .welcome {
     text-align: center;
+}
+
+.welcome p {
+    font-size: large;
+    font-style: italic;
 }
 
 
