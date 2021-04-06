@@ -969,4 +969,6 @@ iframe {
 .modal-content {
     flex-wrap: wrap;
     flex-direction: row;
+    padding: 20px;
+    border-radius: 20px;
 }
