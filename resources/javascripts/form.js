@@ -6,14 +6,14 @@
      var subject = $("[name='subject']").val();
      var message = $("[name='message']").val();
      $.ajax({
-         url: "https://docs.google.com/forms/d/e/1FAIpQLSfP2EJnbphNq6s-HuAWIr7XHFLUG4oJ9zwto0MEpHSJCdvQeA/formResponse",
+         url: "https://docs.google.com/forms/d/e/1FAIpQLSeMKEHp4mZph-Pgx47OOG8ylMznYVdlqXXCSJ8Rb4Zqz61O_Q/formResponse",
          data: {
-             "entry.227649294": fname,
-             "entry.491522101": lname,
-             "entry.1503863940": email,
-             "entry.842699778": phone,
-             "entry.224739943": subject,
-             "entry.1693096447": message
+             "entry.1665063239": fname,
+             "entry.949658059": lname,
+             "entry.149074556": email,
+             "entry.755424024": phone,
+             "entry.1892987173": subject,
+             "entry.380552319": message
          },
          type: "POST",
          dataType: "xml",
