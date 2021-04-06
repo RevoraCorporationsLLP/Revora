@@ -334,6 +334,11 @@ header div.container {
 
 .main-head {
     text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 10px;
+    width: fit-content;
+    margin: auto;
+    border-bottom: 2px solid #800000;
 }
 
 
@@ -872,4 +877,80 @@ iframe {
     border-radius: 5px;
     color: white;
     background-color: black;
+}
+
+.products-page .card.col-sm-4 {
+    height: 50vh;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.products-page .card.col-sm-4 .card-body {
+    padding: 0;
+}
+
+.products-page .card.col-sm-4 .col-12,
+.products-page .card.col-sm-4 .col-12 img {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+.products-page .card-body div:nth-child(2) h1 {
+    text-align: center;
+    margin: auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 1s;
+}
+
+.products-page .card-body:hover div:nth-child(2) h1 {
+    opacity: 1;
+    transition: 1s;
+}
+
+.products-page .card-body div:nth-child(2) {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+}
+
+.modal-title {
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+.modal.show {
+    display: flex!important;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal p {
+    font-size: large;
+    text-align: justify;
+}
+
+.modal-dialog {
+    height: fit-content;
+    margin: auto;
+    max-width: none;
+}
+
+.modal-body {
+    flex-wrap: wrap;
+}
+
+.modal-content {
+    flex-wrap: wrap;
+    flex-direction: row;
 }
