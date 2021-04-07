@@ -972,3 +972,15 @@ iframe {
     padding: 20px;
     border-radius: 20px;
 }
+
+.about-us {
+    font-size: large;
+    text-align: justify;
+    font-style: italic;
+}
+
+.intro {
+    text-align: justify;
+    font-size: large;
+    font-weight: 400;
+}
