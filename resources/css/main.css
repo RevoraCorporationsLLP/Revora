@@ -2,6 +2,9 @@
     outline: none!important;
 }
 
+* {
+  font-family: 'Roboto', sans-serif;
+}
 
 /* navbar */
 
@@ -10,13 +13,24 @@ section div a img {
     margin: 15px;
 }
 
+section.d-flex {
+  position: fixed;
+  top: 0;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background: #fff;
+}
+
 header {
     background-color: transparent;
     padding: 10px 15px;
-    position: sticky;
+    position: fixed;
     top: 0px;
     z-index: 1;
-    background-color: rgb(128, 0, 0);
+    margin-top: 170px;
+    background-color: #800000;
 }
 
 header .mr-auto {
@@ -983,4 +997,16 @@ iframe {
     text-align: justify;
     font-size: large;
     font-weight: 400;
+}
+
+.catalogue {
+  background: #6d0101;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.catalogue:hover {
+  background: #000;
+  color: #fff;
 }
