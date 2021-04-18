@@ -600,7 +600,7 @@ iframe {
     font-size: 0;
     display: grid;
     grid-template-columns: 24.5% 25% 25% 24.5%;
-    grid-template-rows: repeat(42,22vh);
+    grid-template-rows: repeat(37,22vh);
     grid-gap: 5px;
     grid-auto-flow: dense;
     overflow-y: hidden;
