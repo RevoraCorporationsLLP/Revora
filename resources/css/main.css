@@ -950,7 +950,35 @@ iframe {
     border-radius: 5px;
     color: white;
     background-color: black;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
 }
+
+.page-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .page-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .page-button:hover span {
+    padding-right: 25px;
+  }
+  
+  .page-button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
 
 .products-page .card.col-sm-4 {
     height: 50vh;
@@ -1067,11 +1095,6 @@ iframe {
   right: -20px;
   transition: 0.5s;
 }
-
-/* .catalogue:hover {
-  background: #000;
-  color: #fff;
-} */
 
 .catalogue:hover span {
   padding-right: 25px;
