@@ -59,6 +59,7 @@ header .navbar-toggler {
     top: -50px;
     left: 50px;
     padding: 5px;
+    display: block;
 }
 
 .logo_image_cont > img{
