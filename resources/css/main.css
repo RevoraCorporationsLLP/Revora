@@ -185,6 +185,19 @@ header div.container {
     flex-wrap: wrap;
 }
 
+@media screen and (max-width:420px){
+    .logo_image_cont{
+        width: 150px;
+        height: 120px;
+        top: -30px;
+        left: 25px;
+    }
+
+    header{
+        margin: 30px 0 30px 0;
+    }
+}
+
 @media screen and (max-width:766px) {
     .setwidth {
         width: 100vw;
@@ -431,11 +444,12 @@ footer {
     text-align: center;
     background-color: #800000;
     padding: 15px 0px;
+    padding-top: 0;
 }
 
 footer .social-media * {
-    font-size: xxx-large;
-    margin: 2px;
+    font-size: 30px;
+    /* margin: 2px; */
 }
 
 footer p {
