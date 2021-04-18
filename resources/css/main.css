@@ -1047,9 +1047,37 @@ iframe {
   color: #fff;
   padding: 10px 20px;
   border-radius: 50px;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
 }
 
-.catalogue:hover {
+.catalogue span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.catalogue span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+/* .catalogue:hover {
   background: #000;
   color: #fff;
+} */
+
+.catalogue:hover span {
+  padding-right: 25px;
+}
+
+.catalogue:hover span:after {
+  opacity: 1;
+  right: 0;
 }
