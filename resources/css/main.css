@@ -387,7 +387,41 @@ header div.container {
 }
 
 .height-fit {
-    height: fit-content;
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+}
+
+.height-fit4 {
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+}
+
+@media only screen and (max-width: 400px) {
+
+    .height-fit {
+        height: 300px;
+        width: 300px;
+        object-fit: contain;
+    }
+
+}
+
+@media only screen and (max-width: 300px) {
+
+    .height-fit {
+        height: 200px;
+        width: 200px;
+        object-fit: contain;
+    }
+
+    .height-fit4 {
+        height: 200px;
+        width: 200px;
+        object-fit: contain;
+    }
+
 }
 
 .main-head {
