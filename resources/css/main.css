@@ -167,6 +167,10 @@ a {
     /* margin: 15px; */
 }
 
+.navbar-nav {
+    align-items: flex-end;
+}
+
 .social-media {
     height: fit-content;
     margin: auto;
