@@ -393,12 +393,16 @@ header div.container {
 .height-fit {
     height: 400px;
     width: 400px;
+    margin-left: auto;
+    margin-right: auto;
     object-fit: contain;
 }
 
 .height-fit4 {
     height: 300px;
     width: 300px;
+    margin-left: auto;
+    margin-right: auto;
     object-fit: contain;
 }
 
@@ -407,6 +411,8 @@ header div.container {
     .height-fit {
         height: 300px;
         width: 300px;
+        margin-left: auto;
+        margin-right: auto;
         object-fit: contain;
     }
 
@@ -417,12 +423,16 @@ header div.container {
     .height-fit {
         height: 200px;
         width: 200px;
+        margin-left: auto;
+        margin-right: auto;
         object-fit: contain;
     }
 
     .height-fit4 {
         height: 200px;
         width: 200px;
+        margin-left: auto;
+        margin-right: auto;
         object-fit: contain;
     }
 
